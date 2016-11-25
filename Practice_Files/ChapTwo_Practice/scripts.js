@@ -55,3 +55,38 @@ for(var i = 1; i <= 100; i++){
 }
 
 //ChessBoard
+var size = 20;
+var chessBoardString = "";
+var lineNumber = false;
+
+for(i = 0; i <= size; i++ ){
+  if(i < size){
+    for(var line = 1; line <= size + 1; line++ ){
+      if(line <= size){
+        if(lineNumber === false){
+          if(line%2 === 0){
+          chessBoardString += ".";
+        } else {
+          chessBoardString += "#";
+        }
+
+      } else if(lineNumber === true){
+          if(line%2 === 0){
+          chessBoardString += "#";
+        } else {
+          chessBoardString += ".";
+        }
+     }
+   }  else {
+        chessBoardString += "\n";
+        lineNumber =! lineNumber;
+      }
+    }
+  } else {
+    printBoard();
+  }
+}
+
+function printBoard(){
+  console.log(chessBoardString);
+}
