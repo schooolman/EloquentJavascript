@@ -1,0 +1,81 @@
+IEloquent Javascript Notes 11/23/2016
+
+Chapter One
+
+Founded in 1995 and has no relation to the Java language
+
+Ecmascript === Javascript && Javascript === ECMAscript
+
+Javascript was introduced in 1995 with Netscape Navigator as a way to add programs to web pages.
+
+Javascript is used in more than just web browsers, it is currently being used as a scripting language and querying language for databases and as an intermediary as well.
+     - i.e. Node, MongoDB, CouchDB, etc.
+
+//------------------------
+
+----------------------------------------PART ONE----------------------
+
+Values Types and Operators
+
+"Inside the computer's world, there is only data."
+
+Any piece of discrete information can be reduced to a sequence of zeros and ones and thus represented in bits.
+
+Binary 00001101, or 8+4+1, which equals 13.
+
+There are six different types of values in JS: numbers, strings, Booleans, objects, functions, and undefined values.
+
+--- To create a value, all that must occur is that you invoke it's name.
+
+--- Javascript uses a fixed number of bits, naely 64 of them to store a single number value.
+
+--- Within JS you can represent 2^64 different numbers, wihc is about 18 quintillion,
+
+ (18,000,000,000,000,000,000)
+
++ and *, - and /,  symbols are called operators
+
+When operators appera together without parentheses, the order which they are applied is determined by the precdence of the operators.
+
+% is one arithmetic operator that is not typical. It is used to represent the remainder operation.
+----314 % 100 produces 14.
+---------- This is often referred to as the modulo
+
+----------------------->>> MODULO!! :D
+
+------SPECIAL NUMBERS
+
+--- Infinity and -Infinity  which represent the positive and negative infinities.
+------ THIS IS NOT MATHEMATICALLY SOLID
+
+NaN stands for "Not a Number"
+
+when a \ is contained within a string it is actually telling the code that it is escaping that string, and the next character will have a special meaning.
+
+--- if an n follows the back slash then that is indicating a new line.
+
+--- Strings cannot be divided, multiplied, or subtracted but the + operator works to concatenate.
+
+Not all operators are symbols, but some can be written out as words. Such as typeof
+--- this produces a string value naming the type of the value you give it.
+---operators that take two values are called binary operators. while operators like typeof are considered unary operators since they only take one value.
+
+Booleans are only two options
+Yes or No
+True or False
+On or Off
+- use comparisons to produce booleans
+
+The only value in JavaScript that is not equal to itself is NaN(Not a Number)
+
+The || operator is technically equivalent to "or"
+ --- if both are true than the operation runs.
+
+Ternary operator or the conditional operator is noted such as "console.log(false ? 1 : 2);"
+ this would return 2
+
+---there is only one of these operators in JavaScript
+--- The value to the left of the question mark pics which of the values is selected. When it s false, the right value is picked, and when it is true the left value is picked.
+
+
+	
