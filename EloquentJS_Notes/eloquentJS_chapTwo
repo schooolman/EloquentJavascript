@@ -1,0 +1,18 @@
+Eloquent Javascript -- CHAPTER TWO
+
+Variable names can have numbers in them but they cannot start with numbers.
+
+At any point a varaiable can be disconnected from it's current value by using the = operator.
+--- I though this was an interesting way to think about using the = operator on variables, as
+--- a way to disconnect a variable from it's current values.
+
+Another way to think about variables as though they are tentacles. Not used to forever store things, but used to grasp things while they are needed. If you need a new variable, grow a new tentacle or use an existing one.
+
+A single var statement may define multiple vairables. The definitions must be seperated by commas however.
+
+Return Values
+--- Anything that returns a value in Javascript is considered a function. All functions are said to return values.
+
+You can use the keyword "break;" whithin a for loop to break out of a loop at any given time.
+
+
