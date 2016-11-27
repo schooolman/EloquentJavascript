@@ -15,3 +15,16 @@ Nested scopes take variable scoping one step further. They can see all varaibles
 
 In Javascript the only thing that will create a new scope is a function. This is called lexical scoping.
 
+Closures
+
+Local variables are re-created for every call -- different calls can't rample on one another's local variables.
+
+A function that "closes over" some local variables is called a closure. 
+
+--- May need to revisit closures for the one millionth time.
+
+A function that calls itself is called recursive. Recursion allows some functions to be written in a different style. 
+
+Running through a loop is a lot cheaper than calling a function over and over and over again.
+
+How difficult it is to find a good name for a function is a good indicatation of how clear a concept it is that you're trying to wrap. 
