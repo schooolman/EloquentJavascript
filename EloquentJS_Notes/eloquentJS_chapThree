@@ -8,3 +8,10 @@ A return statment determines the value the function returns. When control comes 
 An important property of functions is that the variables created inside of them, including their parameters are local to that function.
 
 Variables declared outside of a function are scoped globally as opposed to locally.
+
+Treating local variables within functions helps to make it more readable. Each function can be understood as small universes.
+
+Nested scopes take variable scoping one step further. They can see all varaibles scoped on the same level as them, but not into each others functions.
+
+In Javascript the only thing that will create a new scope is a function. This is called lexical scoping.
+

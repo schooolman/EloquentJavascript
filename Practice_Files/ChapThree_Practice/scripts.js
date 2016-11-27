@@ -28,3 +28,11 @@ f2();
 console.log(x);
 
 //------------------------------------
+
+function greet(who) {
+  console.log("hello " + who);
+}
+
+greet("harry");
+console.log("Bye Felicia");
+//------------------------------------
