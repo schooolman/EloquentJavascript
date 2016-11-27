@@ -1,0 +1,10 @@
+----- Chapter 3: Functions -----
+
+Some functions produce a value and some dont and only produce a side effect.
+
+A return statment determines the value the function returns. When control comes across such a statement, it immediately jumps out of the current function and gives the returned value to the code that called the function.
+	- The return keyword without an expression after it will cause the function to return undefined.
+
+An important property of functions is that the variables created inside of them, including their parameters are local to that function.
+
+Variables declared outside of a function are scoped globally as opposed to locally.
