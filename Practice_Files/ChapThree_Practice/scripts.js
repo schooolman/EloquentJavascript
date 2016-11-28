@@ -70,3 +70,35 @@ function minNumber(valOne, valTwo){
 console.log(minNumber(3, 9));
 console.log(minNumber(8, 4));
 console.log(minNumber(4, 4));
+
+
+//Bean Counting
+
+// part one
+function countBs (word) {
+  var letterBCount = 0;
+
+  for(var i = 0; i < word.length; i++){
+    if(word.charAt(i) === "B"){
+      letterBCount++;
+    }
+  }
+
+  return console.log("There are this many B's", letterBCount);
+}
+
+countBs("ThisBitchIsBBBB");
+countBs("jajajkd0");
+
+function countChar(word, letter) {
+  var letterCount = 0;
+
+  for(var i = 0; i < word.length; i++){
+    if(word.charAt(i) === letter){
+      letterCount++;
+    }
+  }
+  return console.log("The amount of " + letter + "'s appears to be:" + letterCount);
+}
+
+countChar("Thisis some silly shsssssssssssit son.", "s");
