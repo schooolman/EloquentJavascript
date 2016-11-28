@@ -48,3 +48,25 @@ console.log(power(2, 3));
 
 
 //------------------------------------
+
+// exercises
+
+//------------------------------------
+
+
+//Creating a minimum value function
+
+function minNumber(valOne, valTwo){
+
+  if(valOne > valTwo){
+    return valTwo;
+  } else if(valTwo > valOne) {
+    return valOne;
+  } else {
+    return "numbers are equal.";
+  }
+}
+
+console.log(minNumber(3, 9));
+console.log(minNumber(8, 4));
+console.log(minNumber(4, 4));
